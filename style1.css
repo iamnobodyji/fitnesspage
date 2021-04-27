@@ -58,7 +58,7 @@
 	
 @media screen and (max-width: 720px) {
     .header{
-		background-size: 95%;
+		background-size: 100%;
 		position: relative;	
 	}
 	.header .trainer{
