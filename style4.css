@@ -1,0 +1,24 @@
+.videos{
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+	.videos .videotitle{
+		font-size: 3vw;
+		color: #8B4513;
+		font-family: 'Times New Roman', serif;
+	}
+	.videos iframe{
+		width: 250px;
+		height: 250px;
+		border-radius: 10px;
+		border:none;
+	}
+	@media screen and (max-width: 720px){
+		.videos{
+			padding-left: 15%;
+		}
+		.videos .videotitle{
+		font-size: 6vw;
+	}
+
+	}

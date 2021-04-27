@@ -1,0 +1,43 @@
+.about{
+		margin-left: 70px;
+		
+	}
+	.about img{
+		border-radius: 10px;
+		height: 400px;
+		width: 500px;
+	}
+	.about .authorname{
+		font-size: 3vw;
+		font-family: 'Courier New', monospace;
+	}
+	.about .authortitle{
+		font-size: 1vw;
+	}
+	.about .aboutcard{
+		background-color: #FFE4C4;
+		border-radius: 10px;
+		padding: 20px;
+		width: 550px;
+		margin-left: -20px;
+		height: auto;
+		box-shadow: 0px 15px 10px #888888;
+	}
+	@media screen and (max-width: 720px){
+		.about{
+		margin-left: 30px;
+	}
+	.about img{
+		border-radius: 10px;
+		height: 200px;
+		width: 300px;
+	}
+	.about .aboutcard{
+		background-color: #FFE4C4;
+		border-radius: 10px;
+		padding: 10px;
+		width: 300px;
+		margin-left: 0%;
+		height: auto;
+	}
+	}

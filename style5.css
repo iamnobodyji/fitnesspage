@@ -1,0 +1,45 @@
+.testimonial{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+.testimonial .title{
+	font-size: 3vw;
+	color: #DC143C;
+	font-family: Copperplate, Papyrus, fantasy;
+}
+.testimonial .smalldiv{
+padding: 15px;
+background-color: #F5DEB3;
+box-shadow: 0px 10px 5px #888888;
+height: auto;
+width: 320px;
+border-radius: 10px;
+}
+.testimonial .smalldiv img{	
+  	position: absolute;
+  	display: block;
+  	margin-left: 35%;
+  	margin-top: -50px;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	box-shadow: 0px 10px 5px #888888;
+}
+.testimonial .smalldiv .aut{
+	font-family: "Brush Script MT", cursive;
+	color: #191970;
+	font-size: 25px;
+	padding-top: 120px;
+}
+.testimonial .smalldiv .tex{
+	color: #6A5ACD;
+	text-transform: bold;
+	font-size: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+@media screen and (max-width: 720px){
+	.testimonial .title{
+		font-size: 6vw;
+	}
+}

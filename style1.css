@@ -1,0 +1,96 @@
+.header{
+		background-image: url("images/header21.jpg");		
+		background-repeat: no-repeat;
+		background-size: 100%;
+		position: relative;
+		height: auto;
+	}
+	#mobile{
+		display: none;
+	}
+	.header .trainer{
+		color: #FFFFFF;
+		margin-top: 20px;
+		margin-left: 30px;
+		font-size: 30px;
+		 font-family: Copperplate, Papyrus, fantasy;
+}
+.header .contact{
+		color: #FFFFFF;
+		margin-left: 25px;
+		margin-top: 20px;
+		font-size: 40px;
+		 font-family: Copperplate, Papyrus, fantasy;
+}
+.header .trainertitle{
+	font-family: "Brush Script MT", cursive;
+	color: #FFFFFF;
+	margin-left: 30px;
+	font-size: 30px;
+}
+.header .maintitle{
+	margin-left: 12%;
+	margin-top: 95px;
+	color: #FFFF00;
+	font-size: 5vw;
+	font-family: Garamond, serif;
+}
+.header .headermessage{
+	width: 400px;
+	height: auto;
+	margin-top: 80px;
+	margin-left: 25%;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.header .headermessage .messagetitle{
+	margin-top: 2px;
+	color: #191970;
+	font-size: 2vw;
+}
+.header .headermessage .nameinput{
+	width: 90%;
+	border-radius: 5px;
+	
+}
+	
+@media screen and (max-width: 720px) {
+    .header{
+		background-size: 95%;
+		position: relative;	
+	}
+	.header .trainer{
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	.header .trainertitle{
+		font-size: 10px;
+	}
+	.header .contact{
+		margin-top: 10px;
+		font-size: 15px;
+		margin-left: -10px;
+	}
+	.header .maintitle{
+		margin-left: 20%;
+		font-size: 5vw;
+		margin-top: 35px;
+	}
+	#computer{
+		display: none;
+	}
+	.messagebtn{
+		width: 100px;
+		height: 40px;
+		padding: 5px;
+		border-radius: 5px;
+		margin-left: 20px;
+		margin-top: 35px;
+		background-color: #FA8072;
+	}
+#mobile{
+	display: block;
+}
+}

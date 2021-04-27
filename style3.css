@@ -1,0 +1,33 @@
+.services{
+		padding: 7%;
+	}
+	.services .servicetitle{
+		font-size: 3vw;
+		color: #4B0082;
+		font-family: 'Times New Roman', serif;
+	}
+	.services .servicecol{
+		padding: 10px;
+	}
+	.services .servicecol img{
+		border-radius: 5px;
+		width: 300px;
+		height: 300px;
+	}
+	.services .servicecol .servicecoltitle{
+		font-size: 2vw;
+		font-family: font-family: 'Courier New', monospace;
+		color: #FF6347;
+	}
+	@media screen and (max-width: 720px){
+		.services .servicetitle{
+			font-size: 6vw;
+		}
+		.services .servicecol img{
+			width: 100px;
+			height: 100px;
+		}
+		.services .servicecol .servicecoltitle{
+			font-size: 5vw;
+		}
+	}
